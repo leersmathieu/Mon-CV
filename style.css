@@ -1,12 +1,26 @@
+body {
+    background-color: rgb(183, 199, 218);
+}
+
 strong {
     font-size: 26px;
 }
 
 h2 {
     font-size: 28px;
-    color: #3388bb;
+    color: #941515;
     text-transform: uppercase;
-    border-bottom: 3px solid #3388bb;
+    border-bottom: 3px solid #250000;
+}
+
+a {
+    text-decoration: none;
+    color: #250000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0079FF;
 }
 
 img#me {
@@ -14,12 +28,20 @@ img#me {
 	height: auto;
 }
 
+img#me:hover {
+    max-width: 360px;
+}
+
 .page {
     width: 100vh;
     margin: auto;
     font-size: 16px;
     font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
-    
+    padding: 40px;
+    border: 5px solid #9e0000;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px black;
+    background-color: #FFFF;
 
 }
 
@@ -30,6 +52,7 @@ img#me {
 
 .info {
     float : left;
+    font-size: 20px;
 }
 
 .photo {
@@ -40,6 +63,10 @@ img#me {
 .section {
     margin-bottom: 70px;
     text-align: justify;
+}
+
+.section:hover {
+    color: #0079FF;
 }
 
 .sec-gauche {
