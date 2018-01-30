@@ -1,3 +1,93 @@
+strong {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #3388bb;
+    text-transform: uppercase;
+    border-bottom: 3px solid #3388bb;
+}
+
 img#me {
-    width: 20%;
+	max-width: 180px;
+	height: auto;
+}
+
+.page {
+    width: 100vh;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+    
+
+}
+
+.infophoto {
+    height: 250px;
+    margin: auto;
+}
+
+.info {
+    float : left;
+}
+
+.photo {
+    float: right;
+    
+}
+
+.section {
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.sec-gauche {
+    float: left;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.sec-droite {
+    margin-left: 180px;
+    margin-top: 40px;
+    
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#ajust1 {
+    margin-bottom: 40px;
+}
+
+#ajust2 {
+    margin-top: 30px;
+}
+
+.ajust3 {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+#ajust4 {
+    margin-bottom: 60px;
+}
+
+#ajust5 {
+    margin-top: 75px;
+}
+
+#ajust6 {
+    margin-top: 40px;
+}
+
+#ajust7 {
+    margin-top: 45px;
+}
+
+#ajustchrome {
+    margin-top: 45px;
 }
