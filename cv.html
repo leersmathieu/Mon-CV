@@ -1,90 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon CV personnalisé</title>
 </head>
+
 <body>
-    <div class="page" >
-        <div class="infophoto">
+    <div class="page">
+        <div class="infoPhoto">
             <div class="info">
-                <p><strong>Mathieu Leers</strong><br />
-                Né le 26 Novembre en 1992</p>
-                <p>Avenue de phillipeville - 6001 Marcinelle<br />
-                +32 492 67 87 92<br />
-                leers.mathieu@gmail.com</p>
+                <p>
+                    <strong>Mathieu Leers</strong>
+                    <br /> Né le 26 Novembre en 1992</p>
+                <p>Avenue de phillipeville - 6001 Marcinelle
+                    <br /> +32 492 67 87 92
+                    <br /> leers.mathieu@gmail.com
+                </p>
                 <p>Permis B (En license)</p>
             </div>
             <div class="photo">
-                <img id="me" src="me.jpg" alt="Leers Mathieu">
-            </div>            
+                <img id="me" src="assets/me.jpg" alt="Leers Mathieu">
+            </div>
         </div>
-        <div class="section">
+        <section id="formation">
             <h2>Formation</h2>
-            <div class="sec-gauche">
-                <p id="ajust1" >2018-Auj.</p>
+            <div class="sec-gauche" id="secFormationLeft">
+                <p id="ajust1">2018-Auj.</p>
                 <p>2012-2014</p>
-                <p id="ajust2" >2011-2012</p>
+                <p id="ajust2">2011-2012</p>
             </div>
             <div class="sec-droite">
-                <p><span class="titre">Web-Developper</span><br />
-                Formation de 6 mois (en cour) chez BeCode (Charleroi)/Junior Web-Dev</p>
-                <p><span class="titre">Technicien informatique</span><br />
-                Formation de 2 ans ( avortée après 1 ans et demi ) aux Aumonier du travail à charleroi</p>
-                <p><span class="titre">Vente</span><br />
-                Diplômé en 4e professionelle dans l'option vente, a l'Institu Notre-Dame de Fleurus.</p>
+
+                <h4>Web-Developper</h4>
+                <p> Formation de 6 mois (en cour) chez BeCode (Charleroi)/Junior Web-Dev</p>
+
+                <h4>Technicien informatique</h4>
+                <p>Formation de 2 ans ( avortée après 1 ans et demi ) aux Aumonier du travail à charleroi</p>
+
+                <h4>Vente</h4>
+                <p>Diplômé en 4e professionelle dans l'option vente, a l'Institu Notre-Dame de Fleurus.</p>
             </div>
-        </div>
-        <div class="section">
+        </section>
+        <section id="experience">
             <h2>Expériences professionneles et informatique</h2>
-            <div class="sec-gauche">
-                <p>2010-2012</p>
-                <br />
-                <p>Compétence<br />informatique :</p>
+            <div class="sec-gauche" id="secExpLeft">
+                <p>Coaching :</p>
+                <p>Compétence
+                    <br />informatique :</p>
             </div>
-            <div class="sec-droite">
-                <p><span class="titre">Stages de vente </span><br />
-                Plusieurs mois de stage de vente actif étalé sur 2 ans. ( Match Fleurus, Match Baulet. )</p>
-                <p id="ajust6"><span class="titre">Connaissance approfondie en :</span><br />
-                Montage/editing multimédia - World/libre/open office (bureautique) - HTML/CSS - MarkDown
-                <br /><span class="titre">Notion de base en :</span><br />
-                Infographie - serveur et SQL - Maintenance - JavaScript - Python</p>
+            <div class="sec-droite" id="secExpRight">
+                <h4>Coach bénévole à CoderDojo</h4>
+                <p>
+                    <em>( en cours à Charleroi )</em>
+                </p>
+                <h4>Gaming community manager</h4>
+                <p>
+                    <em> ( entre autres : Discord/Steam )</em>
+                </p>
+
+                <p class="separation">
+                    <h4>Connaissance approfondie en :</h4>
+                    <p>HTML/CSS - JavaScript - PHP - Montage/editing multimédia</p>
+
+                    <h4>Notion de base en :</h4>
+                    <p>Infographie - SQL - Maintenance - React - Python et divers autres language de programmation</p>
             </div>
-        </div>
-        <div class="section">
+        </section>
+        <section id="language">
             <h2>Langues connues</h2>
-            <div class="sec-gauche">
+            <div class="sec-gauche" id="secLangLeft">
                 <p>Français :</p>
                 <p>Anglais :</p>
                 <p>Néérlandais :</p>
             </div>
-            <div class="sec-droite">
-                <p class="ajust3" id="ajust7">Langue maternelle</p>
-                <p class="ajust3">Bonne notion surtout appliquer à l'informatique ( web language )</p>
-                <p class="ajust3">Simples notions</p>
+            <div class="sec-droite" id="secLangRight">
+                <p>Langue maternelle</p>
+                <p>Bonne notion surtout appliquer à l'informatique (web language)</p>
+                <p>Simples notions</p>
             </div>
-        </div>
-        <div class="section">
+        </section>
+        <section id="interest">
             <h2>Autres expériences et centres d'intérêt</h2>
-            <div class="sec-gauche">
-                <p id="ajust4" >2012-Auj.</p>
+            <div class="sec-gauche" id="secIntLeft">
+                <p>2012-Auj.</p>
                 <p>199X-Auj.</p>
-                <p id="ajust5" >Intérêts :</p>
+                <p>Intérêts :</p>
             </div>
-            <div class="sec-droite">
-                <p><span class="titre">Hypnose ( Street hypnotiseur )</span><br />
-                Je pratique depuis 6 ans plus ou moins fréquemment, je suis un pionnier du site <a href="https://street-hypnose.fr/charte-deontologie/"> street-hypnose.fr</a></p>
-                <p><span class="titre">Gaming</span><br />
-                Je suis un fervent défenseur du jeu sous toutes ses formes bien qu'axé principallement sur le numérique. 
-                Je dispose d'une chaine youtube_partenaire (gaming/video-editing) ainsi qu'un compte twitch_partenaire (stream)</p>
-                <p id="ajustchrome">Vous l'aurez compris, tout ce qui touche de près ou de loin à l'informatique ou à l'univers du jeu m'intéresse<br /> 
-                ainsi que l'hypnose, le mentalisme, le close up et tout ce qui touche au cerveaux en général</p>
+            <div class="sec-droite" id="secIntRight">
+
+                <h4>Hypnose ( Street hypnotiseur )</h4>
+                <p>Je pratique depuis 6 ans plus ou moins fréquemment, je suis un pionnier du site
+                    <a href="https://street-hypnose.fr/charte-deontologie/">
+                        street-hypnose.fr</a>
+                </p>
+                <h4>Gaming</h4>
+                <p> Je suis un fervent défenseur du jeu sous toutes ses formes bien qu'axé principallement sur le numérique.
+                    Je dispose d'une chaine youtube_partenaire (gaming/video-editing) ainsi qu'un compte twitch_partenaire
+                    (stream) </p>
+
+
+                <p>Vous l'aurez compris, tout ce qui touche de près ou de loin à l'informatique ou à l'univers du jeu m'intéresse
+                    ainsi que l'hypnose, le mentalisme, le close up et tout ce qui touche de près ou de loin à la "logique" 
+                    (humaine/informatique)</p>
             </div>
-        </div>
+        </section>
     </div>
     
+    <script> 
+
+        console.log("%cCe code est ancient je l'ai juste un peu remanié pour l'occasion. Il ne reflète plus vraiment mes compétences, allez plutôt voir mon github %chttps://github.com/leersmathieu",
+        "color: yellow; font-size:14px; background-color: black;",
+        "color: green; font-size:18px;");
+
+    
+    </script>
 </body>
+
 </html>

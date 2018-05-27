@@ -1,0 +1,165 @@
+/* global */
+
+body {
+    background-color: rgb(36, 85, 97);
+}
+
+strong {
+    font-size: 26px;
+}
+p {
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    color: #941515;
+    text-transform: uppercase;
+    border-bottom: 3px solid #250000;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #250000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0079FF;
+}
+
+img#me {
+	max-width: 180px;
+	height: auto;
+}
+
+
+/* The animation code */
+
+@keyframes zoom {
+    from {
+        max-width: 180px;
+    }
+    to {
+        max-width: 225px;
+    }
+}
+
+/* The element to apply the animation to */
+
+
+img#me:hover {
+    max-width: 225px;
+    animation-name: zoom;
+    animation-duration: 2s;
+}
+
+.page {
+    width: 100vh;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+    padding: 40px;
+    border: 5px solid #9e0000;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px black;
+    background-color: rgb(253, 255, 221);
+
+}
+
+
+.separation {
+    padding-top: 40px;
+}
+
+/* Info + photo */
+
+.infoPhoto {
+    height: 250px;
+    margin: auto;
+}
+
+.info {
+    float : left;
+    font-size: 20px;
+}
+
+.photo {
+    float: right;
+    
+}
+
+/* Section */
+
+section {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#experience {
+    margin-bottom: 0;
+}
+
+section:hover {
+    color: #0079FF;
+}
+
+.sec-gauche {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+}
+
+#secFormationLeft {
+    line-height: 225%;
+}
+
+#secExpLeft p {
+    padding-bottom: 41%;
+    padding-top: 5%;
+}
+
+#secLangLeft {
+    line-height: 135%;
+}
+
+#secIntLeft {
+    line-height: 400%;
+}
+
+
+.sec-droite {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 140%;
+    width: 70%;    
+}
+
+#secExpRight p {
+    padding-bottom: 1%;
+}
+
+#secLangRight p {
+    line-height: 180%;
+}
+
+#secIntRight p {
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .separation {
+        padding-top: 15px;
+    }
+}
