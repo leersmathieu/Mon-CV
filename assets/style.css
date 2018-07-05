@@ -33,38 +33,39 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+/* a:hover {
     color: #0079FF;
-}
+} */
 
 img#me {
 	max-width: 180px;
-	height: auto;
+    height: auto;
+    transition: all 2s ease;
+    
 }
 
 
 /* The animation code */
 
-@keyframes zoom {
+/* @keyframes zoom {
     from {
         max-width: 180px;
     }
     to {
         max-width: 225px;
     }
-}
+} */
 
 /* The element to apply the animation to */
 
 
 img#me:hover {
     max-width: 225px;
-    animation-name: zoom;
-    animation-duration: 2s;
+    height: auto;
 }
 
 .page {
-    width: 100vh;
+    width: 1000px;
     margin: auto;
     font-size: 16px;
     font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
@@ -109,9 +110,9 @@ section {
     margin-bottom: 0;
 }
 
-section:hover {
+/* section:hover {
     color: #0079FF;
-}
+} */
 
 .sec-gauche {
     font-size: 20px;
