@@ -1,0 +1,153 @@
+body {
+  background-color: #245561;
+  font-size: 16px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #9e0000;
+  text-transform: uppercase;
+  border-bottom: 3px solid #250000;
+  padding-left: 10px;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #250000;
+  font-weight: bold;
+}
+
+.page {
+  width: 1000px;
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+  box-shadow: 6px 6px 20px black;
+  background-color: floralwhite;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 27% 73%;
+}
+
+.grid .collonne {
+  color: white;
+  background-color: #9e0000;
+}
+
+.grid .collonne .name {
+  background-color: floralwhite;
+  text-align: center;
+  color: #424242;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-top: 8px solid #e66060;
+}
+
+.grid .collonne .photo {
+  margin-top: 50px;
+  background-color: white;
+  height: 300px;
+  overflow: hidden;
+}
+
+.grid .collonne .photo img {
+  width: 100%;
+}
+
+.grid .collonne .extension {
+  padding: 10px;
+  padding-top: 0;
+}
+
+.grid .collonne .extension .competences {
+  padding-top: 15px;
+}
+
+.grid .collonne .extension h4 {
+  border-bottom: 2px solid white;
+  padding-bottom: 8px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.grid .contenu .profil p {
+  padding: 10px;
+}
+
+.grid-exp {
+  padding: 10px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 75%;
+}
+
+.grid-exp .row-exp {
+  padding-left: 10px;
+}
+
+.grid-exp .row-exp.left {
+  color: gray;
+  font-weight: bold;
+}
+
+.skills {
+  margin-top: 8px;
+}
+
+.skills .skill {
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.stars {
+  width: 45%;
+  display: inline-block;
+}
+
+.stars .star, .stars .starless {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.stars .starless {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.under-red {
+  text-align: center;
+  border-color: #e66060;
+  border-bottom: 8px solid #e66060;
+  color: floralwhite;
+  padding-bottom: 14px;
+  padding-top: 13px;
+  background-color: #9e0000;
+  margin-top: 0;
+}
