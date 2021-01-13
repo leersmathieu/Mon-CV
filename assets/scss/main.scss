@@ -101,7 +101,7 @@ a {
             padding: 10px;
             padding-top: 0;
             .competences {
-                padding-top: 15px;
+                padding-top: 35px;
                 .info {
                     padding-top: 10px;
                     a {
@@ -136,6 +136,7 @@ a {
 }
 .grid-exp {
     padding: 10px;
+    padding-bottom: 55px;
     display: grid;
     // width: 100%;
     grid-template-columns: 25% 75%;
@@ -179,10 +180,11 @@ a {
     border-color: $colorAccentLight;
     border-bottom: 8px solid $colorAccentLight;
     color: $colorBase;
-    padding-bottom: 14px;
-    padding-top: 13px;
+    padding-bottom: 30px;
+    padding-top: 35px;
     background-color: $colorAccent;
     margin-top: 0;
+    font-size: $fontSizeAccent + 8px;
     
 }
 

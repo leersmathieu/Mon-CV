@@ -93,7 +93,7 @@ a:hover {
 }
 
 .grid .collonne .extension .competences {
-  padding-top: 15px;
+  padding-top: 35px;
 }
 
 .grid .collonne .extension .competences .info {
@@ -125,6 +125,7 @@ a:hover {
 
 .grid-exp {
   padding: 10px;
+  padding-bottom: 55px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 75%;
@@ -172,10 +173,11 @@ a:hover {
   border-color: #e66060;
   border-bottom: 8px solid #e66060;
   color: floralwhite;
-  padding-bottom: 14px;
-  padding-top: 13px;
+  padding-bottom: 30px;
+  padding-top: 35px;
   background-color: #9e0000;
   margin-top: 0;
+  font-size: 26px;
 }
 
 /* The animation code */
