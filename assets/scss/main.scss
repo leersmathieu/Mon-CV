@@ -51,13 +51,20 @@ a {
 .page {
     width: 1000px;
     margin: auto;
-    font-size: $fontSizeBase;
     font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
     // padding: 40px;
     // border: 5px solid #9e0000;
     // border-radius: 10px;
     box-shadow: 6px 6px 20px black;
     background-color: floralwhite;
+    .grid{
+        .collonne {
+            font-size: $fontSizeBase - 1;
+        }
+        .contenu {
+            font-size: $fontSizeBase;
+        }
+    }
     
 
 }
@@ -81,7 +88,7 @@ a {
         .photo {
             // margin-top: 50px;
             background-color: white;
-            height: 300px;
+            height: 290px;
             overflow: hidden;
             img {
                 // max-height: 50px;
@@ -94,6 +101,18 @@ a {
             padding-top: 0;
             .competences {
                 padding-top: 15px;
+                .info {
+                    padding-top: 10px;
+                    a {
+                        color: white;
+                        &:hover {
+                            color: rgb(212, 103, 89);
+                        }
+                    }
+                    p {
+                        padding-bottom: 8px;
+                    }
+                }
             }
             h4 {
                 // text-decoration: underline;
@@ -117,11 +136,11 @@ a {
 .grid-exp {
     padding: 10px;
     display: grid;
-    width: 100%;
+    // width: 100%;
     grid-template-columns: 25% 75%;
     // grid-auto-rows: 20px;
+    padding-left: 20px;
     .row-exp {
-        padding-left: 10px;
         &.left {
             color: gray;
             font-weight: bold;
@@ -131,7 +150,7 @@ a {
 .skills {
     margin-top: 8px;
     .skill {
-        width: 45%;
+        width: 32%;
         display: inline-block;
         margin-bottom: 4px;
     }
